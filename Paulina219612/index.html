@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kapa.css">
+
+    <title>Docu</title>
+</head>
+<body>
+
+    <fieldset>
+        <legend>calculatrice</legend>
+        <div>
+            <div class="button">
+                <button type="submit">Entrer un nombre</button><br><br>
+    
+            </div> 
+            
+           
+  <script>
+    
+        
+    function CALCULATRICE (){
+        var numbre1 , numbre2 , somme , multiplication , modulo , division
+        num1=Number(document.getElementById("num1").value);
+        num2=Number(document.getElementById("num2").value);
+        somme = num1 + num2;
+        multiplication = num1 * num2;
+        modulo = num1 % num2;
+        division = num1 / num2;
+        document.getElementById("somme").value = somme;
+        document.getElementById("multiplication").value = multiplication;
+        document.getElementById("modulo").value = modulo;
+        document.getElementById("division").value = division;
+
+    }
+
+  </script>
+  <label for="name"> numbre1 </label>   
+    <input type="num" id="num1" name="data1" required><br><br>
+    <label for="name">numbre2</label>
+    <input id="num2">
+    <div class="button"><br>
+    <button onclick="CALCULATRICE()">calculez</button></div><br>
+    somme: <input id="somme"> <br><br>
+    multiplication: <input id="multiplication"> <br><br>
+    modulo: <input id="modulo"> <br><br>
+    division: <input id="division"> <br><br>
+</fieldset>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+fieldset{
+    width: 15px;
+    background-color: rgb(127, 128, 133);
+    height: 250px;
+    padding: 25px 250;
+    
+}
+
+body{
+    margin-bottom: 52px;
+    margin-left: auto;
+    margin-top: 100px;
+    background-color: rgb(190, 110, 157);
+    width: 1500px;
+    height: 10px 550px;
+}
+div{
+    height: 50px;
+    width: 80;
+    border: 8px solid rgb(brown, green, pink)
+    
+}
