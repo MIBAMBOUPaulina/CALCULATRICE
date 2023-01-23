@@ -1,0 +1,1 @@
+les noms $mavar, $var5, $_mavar, $_5var, $_element1 respectent les conventions. les autres ne respectent pas les conditions: mavar n'a pas le symbole $ au debut et $hotel14* se termine par ce symbole * 
